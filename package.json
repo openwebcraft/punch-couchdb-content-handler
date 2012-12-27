@@ -1,0 +1,33 @@
+{
+  "name": "punch-couchdb-content-handler",
+  "title": "Punch CouchDB Content Handler",
+  "description": "A custom Punch content handler to fetch data from CouchDB.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/openwebcraft/punch-couchdb-content-handler",
+  "author": {
+    "name": "Matthias Geisler",
+    "email": "matthias@openwebcraft.com",
+    "url": "http://openwebcraft.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openwebcraft/punch-couchdb-content-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openwebcraft/punch-couchdb-content-handler/issues"
+  },
+  "main": "lib/couchdb_content_handler",
+  "dependencies": {
+    "punch": ">= 0.5.11",
+    "underscore": ">= 1.4.3",
+    "cradle": ">= 0.6.4"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "keywords": [
+    "punch",
+    "couchdb",
+    "content-handler"
+  ]
+}
